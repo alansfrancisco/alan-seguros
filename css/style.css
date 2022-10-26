@@ -1,6 +1,16 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     padding-bottom: 3rem;
     color: #5a5a5a;
+}
+
+#logo {
+    width: 12.5rem; 
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .marketing .col-lg-4 {
@@ -21,6 +31,15 @@ body {
     margin: 5rem 0;
 }
 
+.rounded-circle {
+    margin-bottom: 1em !important;
+}
+
+.tituloGrupos {
+    margin-bottom: 2em !important;
+    font-weight: bold;
+}
+
 .whatsapp {
     position: fixed;
     bottom: 30px;
@@ -28,16 +47,14 @@ body {
     z-index: 999;
 }
 
-@media (min-width: 40em) {
-
-    .featurette-heading {
-        font-size: 50px;
+@media (max-width: 576px) {
+    #grupoConvenios {
+        width: 90% !important;
     }
 }
 
-@media (min-width: 62em) {
-
-    .featurette-heading {
-        margin-top: 7rem;
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #grupoConvenios {
+        width: 90% !important;
     }
 }
